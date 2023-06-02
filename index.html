@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>Opciones</legend>
         <input type="radio">
         <label for="name">Wifi</label>
         <input type="radio">
@@ -17,14 +19,47 @@
         <label for="Text">Elija una Hora</label>
         <input type="time"><br>
         <label for="tex">Elija un fichero</label>
-        <button>Examinar</button><br>
+        <button>Examinar</button>
+        <label for="tex">No se ha encontrado ningun fichero</label><br>
         <select name="" id="">
             <option value="Ciencias">Ciencias</option>
             <option value="Letras">Letras</option>
+        </select> <br>
+        <textarea name="" id="" cols="30" rows="10">Escriba aqui, por favor</textarea><br>
+        <label for="Text">Elija una fecha</label>
+        <input type="date"><br>
+        <input type="checkbox">
+        <label for="Text">USB</label>
+        <input type="checkbox">
+        <label for="Text">Paralelo</label>
+        <input type="checkbox">
+        <label for="Text">PS2</label><br>
+        <label for="institute">Instituto</label>
+        <input type="text">
+        <label for="Estudios_Elegidos">Estudios elegidos</label>
+        <input type="text"><br>
+        <label for="colorInput">Elija un color</label>
+        <input type="color" name="colorInput" id="colorInput">
+        </fieldset>
+        <fieldset>
+            <legend>Por favor, complete estas opciones</legend>
+        <label for="colorInput">Elija un color</label>
+        <input type="color" name="colorInput" id="colorInput"><br>
+        <input type="radio">
+        <label for="Text">Intel</label><br>
+        <input type="radio">
+        <label for="Text">AMD</label><br><br>
+        <label for="Text">Elija una Hora</label>
+        <input type="time"><br>
+        <label for="tex">Elija un fichero</label>
+        <button>Examinar</button>
+        <label for="tex">No se ha encontrado ningun fichero</label><br>
+        <select id="Idiomas" name="Idiomas" size="2" multiple>
+            <option value="Ingles">Ingles</option>
+            <option value="Aleman">Aleman</option>
         </select>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-</form>
+    </fieldset>
+    </form>
 
 
 
