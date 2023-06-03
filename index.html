@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Form Party Class</title>
     </head>
     <body>
         <form>
         <fieldset>
-            <legend>Opciones</legend>
+            <legend><h3>Opciones</h3> </legend>
         <input type="radio">
         <label for="name">Wifi</label>
         <input type="radio">
@@ -42,7 +42,7 @@
         <input type="color" name="colorInput" id="colorInput">
         </fieldset>
         <fieldset>
-            <legend>Por favor, complete estas opciones</legend>
+            <legend><h3>Por favor, complete estas opciones</h3> </legend>
         <label for="colorInput">Elija un color</label>
         <input type="color" name="colorInput" id="colorInput"><br>
         <input type="radio">
@@ -54,11 +54,40 @@
         <label for="tex">Elija un fichero</label>
         <button>Examinar</button>
         <label for="tex">No se ha encontrado ningun fichero</label><br>
-        <select id="Idiomas" name="Idiomas" size="2" multiple>
+        <select id="Idiomas" name="Idiomas" size="3" multiple>
             <option value="Ingles">Ingles</option>
             <option value="Aleman">Aleman</option>
+            <option value="Frances">Frances</option>
         </select>
     </fieldset>
+    <fieldset>
+        <legend><h3>Informacion Personal</h3> </legend>
+    <label for="Name">Nombres:</label><br>
+    <input type="text"><br>
+    <label for="LastName">Apellidos:</label><br>
+    <input type="text"><br>
+    <label for="Email">Email:</label><br>
+    <input type="email"><br>
+    <label for="Tel">Telefono:</label><br>
+    <input type="tel"><br><br>
+    <label for="SelectProvincia">Seleccione una Provincia:</label><br>
+    <input type="checkbox" name="Provicia" value="ProvinciaAlbacete">
+    <label for="ProvinciaAlbacete">Albacete</label><br>
+    <input type="checkbox" name="Provicia" value="Ciudad_Real">
+    <label for="provinciaCiudad_Real">Ciudad Real</label><br>
+    <input type="checkbox" name="Provicia" value="Cuenca">
+    <label for="provinciaCuenca">Cuenca</label><br>
+    <input type="checkbox" name="Provicia" value="Guadalajara">
+    <label for="provinciaGuadalajara">Guadalajara</label><br>
+    <input type="checkbox" name="Provicia" value="Toledo">
+    <label for="provinciaToledo">Albacete</label><br><br>
+    <label for="Date">Elija la fecha</label>
+    <input type="date"><br>
+    <textarea name="" id="" cols="49" rows="8">Utilice este cuadro para escribir</textarea>
+</fieldset>
+
+
+
     </form>
 
 
